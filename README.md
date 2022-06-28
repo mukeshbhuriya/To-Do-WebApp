@@ -1,2 +1,2 @@
 # To-Do-WebApp
-To Do List WebApp Is To Remind Your Task
+To Do List WebApp helps you to remind your task...
