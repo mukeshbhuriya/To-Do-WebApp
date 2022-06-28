@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do WebApp</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .container {
+        width: 800px;
+        height: 500px;
+        border-radius: 10px;
+        padding: 30px;
+        display: block;
+        margin: auto;
+        margin-top: 118px;
+        background-image: url("mm.jpg");
+        box-sizing: border-box;
+      }
+      </style>
+</head>
+<body>
+        <div class="container">
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">To Do List App</h2>
+                <input type="text" id="myInput" placeholder="Task...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+                <hr class="h">
+              </div>
+             <ul id="myUL">
+                <li>Submit All Task Before 30th Jun</li>
+                <li class="checked">Finish Task 3</li>
+                <li class="checked">Finish Task 2</li>
+                <li class="checked">Finish Task 1</li>
+              </ul>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
